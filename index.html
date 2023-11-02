@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Etch-a-sketch | JS</title>
+</head>
+<body>
+
+    <div class="title-container">
+        <h1 id="title">Etch-a-sketch</h1>
+    </div>
+
+    <div class="settings-container">
+        <button class="grid-selector-btn" id="16">16x16</button>
+        <button class="grid-selector-btn" id="32">32x32</button>
+        <button class="grid-selector-btn" id="64">64x64</button>
+    </div>
+    
+    <div class="mode-switch-container">
+        <button class="switch-btn" id="pencil-btn"><i class='bx bx-pencil' ></i></button>
+        <button class="switch-btn" id="eraser-btn"><i class='bx bx-eraser'></i></button>
+    </div>
+
+    <div id="grid-container"></div>
+
+    <button id="reset-btn">Reset</button>
+
+</body>
+</html>
